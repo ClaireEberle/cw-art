@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Fasthand&display=swap");
+
+header {
+    height: 15vh;
+}
+/* .Navbar {
+    height: 10rem;
+} */
+.header-name {
+font-family: 'Fasthand', cursive;
+float: left;
+margin-left: 25px;
+font-size: 50px;
+text-decoration: none;
+color: black;
+}
+
+.ul-nav{
+   list-style-type: none;
+   display: inline;
+  float: right;
+}
+.li-nav {
+font-family: 'Caveat', cursive;
+font-size: 25px;
+float: left;
+margin: 8px;
+position: relative;
+
+}
+.a-nav{
+    text-decoration: none; 
+    text-align: center;
+    color: black;
+    transition: 0.2s;
+}
+
+li a:hover {
+color: rgb(122, 104, 48);
+text-shadow: 0 15px 30px rgb(241, 208, 106);
+
+}
+
+
+@media (max-width: 760px) {
+    .a-nav {
+        float: none;
+        display: block;
+        text-align: right;
+
+    }
+  
+}
+@media (max-width: 600px) {
+    .li-nav {
+        background-color: beige;
+    }
+}
