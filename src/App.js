@@ -6,6 +6,7 @@ import About from "./components/Pages/About"
 import Portfolio from "./components/Pages/Portfolio"
 import Sale from "./components/Pages/Sale"
 import Cart from "./components/Pages/Cart"
+import Home from './components/Pages/Home'
 import './App.css';
 
 
@@ -15,7 +16,7 @@ function App() {
     <BrowserRouter>
     <Navbar/>
     <Routes>
-      <Route path="/"/>
+      <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/portfolio" element={<Portfolio/>}/>
       <Route path="/sale" element={<Sale/>}/>
