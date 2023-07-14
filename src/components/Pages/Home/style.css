@@ -1,0 +1,8 @@
+.hero{
+    background-image: url("../../../images/background.jpeg") ;
+    background-size: cover;
+    /* background-position: top 25% right 0; */
+    height:85vh;
+    width: 100%;
+    margin: 0;
+}

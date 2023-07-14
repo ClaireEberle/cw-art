@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Fasthand&display=swap");
 
 header {
-    height: 15vh;
+    height: 10vh;
+    background-image: url("../../images/background2.jpeg");
 }
 /* .Navbar {
     height: 10rem;
@@ -38,6 +39,7 @@ position: relative;
 li a:hover {
 color: rgb(122, 104, 48);
 text-shadow: 0 15px 30px rgb(241, 208, 106);
+
 
 }
 

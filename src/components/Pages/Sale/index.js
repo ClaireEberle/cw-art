@@ -7,9 +7,9 @@ import art1 from "../../../images/art1.jpeg";
 function Sale(props) {
   return (
     <div className="sale-container">
-      <header>
+      <div>
         <h1>for sale</h1>
-      </header>
+      </div>
       <section className="card-container">
         <Card style={{width:'18rem'}}>
             <Card.Img variant="top" src={art1}/>
@@ -19,8 +19,9 @@ function Sale(props) {
             </Card.Body>
             <Card.Body>
             <Button variant='primary'>Save to cart</Button>
+            <Button variant='primary'>View</Button>
 
-            </Card.Body>\
+            </Card.Body>
             </Card>
       </section>
     </div>
