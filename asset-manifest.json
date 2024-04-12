@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cw-art/static/css/main.9529fa2a.css",
+    "main.js": "/cw-art/static/js/main.2b0bbffb.js",
+    "static/media/background.jpeg": "/cw-art/static/media/background.709e5c5733a40dba2945.jpeg",
+    "static/media/background2.jpeg": "/cw-art/static/media/background2.c25fb5da41cae1f81b8c.jpeg",
+    "static/media/art1.jpeg": "/cw-art/static/media/art1.b171eecbc14ea133772e.jpeg",
+    "index.html": "/cw-art/index.html",
+    "main.9529fa2a.css.map": "/cw-art/static/css/main.9529fa2a.css.map",
+    "main.2b0bbffb.js.map": "/cw-art/static/js/main.2b0bbffb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9529fa2a.css",
+    "static/js/main.2b0bbffb.js"
+  ]
+}
