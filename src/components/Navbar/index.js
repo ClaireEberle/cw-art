@@ -1,8 +1,20 @@
 import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import Button from 'react-bootstrap/Button'
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import menu from "../../images/menu.png"
 
-const Navbar = (props) => {
+
+
+const Navbar = () => {
+
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
   return (
     <header>
       <h1>
@@ -10,7 +22,9 @@ const Navbar = (props) => {
           Kauri CW Art
         </Link>
       </h1>
-      <ul className="ul-nav">
+      <Button variant="link" className="d-sm-none menu-button" onClick={handleShow}><img src={menu} />
+      </Button>
+      <ul className="ul-nav d-none d-sm-block">
         <li className="li-nav">
           <Link to="/about" className="a-nav">
             About
@@ -38,6 +52,11 @@ const Navbar = (props) => {
           </Link>
         </li>
       </ul>
+      <Offcanvas show={show} onHide={handleClose} responsive="lg">
+        <Offcanvas.Header closeButton>
+            <Offcanvas.Title>Navigate</Offcanvas.Title>
+        </Offcanvas.Header>
+      </Offcanvas>
     </header>
   );
 };

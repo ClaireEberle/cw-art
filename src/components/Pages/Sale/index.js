@@ -18,8 +18,12 @@ function Sale(props) {
                 <Card.Text>Available for price</Card.Text>
             </Card.Body>
             <Card.Body>
-            <Button variant='primary'>Save to cart</Button>
-            <Button variant='primary'>View</Button>
+               
+            <Button variant='dark'>Message Artist</Button>
+               
+
+            <Button variant='dark'>View</Button>
+                
 
             </Card.Body>
             </Card>
