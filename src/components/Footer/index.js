@@ -15,16 +15,16 @@ const Footer = (props) => {
                     <a className="footer-a"
                     href="https://www.instagram.com/kauri.c.w/?igshid=NTc4MTIwNjQ2YQ%3D%3D"
                     target="_blank">
-                        {/* <img src={instagram}/> */}
-                        Instagram
+                        <img src={instagram}/>
+                        {/* Instagram */}
                         </a>
                 </li>
                 <li className="footer-li">
                     <a className="footer-a"
                     href="#"
                     target="_blank">
-                        {/* <img src={email}/> */}
-                        Email
+                        <img src={email}/>
+                        {/* Email */}
                         </a>
                 </li>
             </ul>
